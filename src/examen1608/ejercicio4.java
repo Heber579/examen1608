@@ -23,9 +23,9 @@ public class ejercicio4 {
         System.out.println("Ingrese el precio del producto");
         precio=lector.nextInt();
         descuento=precio*0.10;
-        valorfinal=lector.nextDouble();
-        System.out.println("El descuento es "+descuento);
-        System.out.println("El precio final es "+valorfinal);
+        valorfinal=precio-descuento;
+        System.out.println("El descuento es de Q"+descuento);
+        System.out.println("El precio final es Q"+valorfinal);
     }
     
 }
